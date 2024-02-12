@@ -10,7 +10,7 @@ def index():
 
 @app.route('/second_page')
 def second_page():
-        return render_template('.html extension')
+        return render_template('second.html')
 
 
 @app.route('/compress', methods=['POST'])
