@@ -34,5 +34,5 @@ def compress2():
     return send_file(img_io, mimetype='image/jpeg', as_attachment=True, download_name='compressed.jpg')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
 
